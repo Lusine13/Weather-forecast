@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {    
+    width: 600px;
+    height: 80vh; 
+    margin:auto;    
+    width: 600px;
+    height: 80vh;
+}
+.searchBar {
+    background-color: rgb(229, 117, 56);
+    border-radius: 20px 20px 0 0;
+    border: 1px solid;
+    text-align: center;
+    height: 100px;
+}
+.search {
+    border-radius: 15px;
+    margin: 20px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.searchBtn {
+    background-color: transparent;
+    border:none;
+    padding: 10px;
+    cursor: pointer;
+}
+.search-icon {      
+    width: 25px;
+    height: auto;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    margin: 15px 0;
+    height: 200px;
+}
+.city, .country {   
+    border: 1px solid black;   
+    position: relative;
+}
+.city {
+    position: relative;
+}
+.map-icon {
+  position: absolute;
+  left:15px;
+  top: 15px;  
+  width: 30px;
+  height: auto;
+}
+.temperature {
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 15px;
+    text-align: center; 
+    position: relative;   
+}
+.temperature-icon {
+  position: absolute;
+  left:15px;
+  top: 15px;  
+  width: 40px;
+  height: auto;
+}
+
+h3 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    margin:0;      
+}
+
+.city-name, .country-name, .temp-value {
+   font-size: 25px;
+   text-align: center;
+   justify-content: center;
+
+}
+.weather-icon {
+  position: absolute;
+  right:20px;
+  top: 15px;  
+  width: 50px;
+  height: auto;
+}
+
