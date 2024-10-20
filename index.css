@@ -1,7 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 181, 182);
 }
-.container {    
+.container {     
     width: 600px;
     height: 80vh; 
     margin:auto;    
@@ -10,14 +11,15 @@ body {
 }
 .searchBar {
     background-color: rgb(229, 117, 56);
-    border-radius: 20px 20px 0 0;
-    border: 1px solid;
+    border-radius: 20px 20px 0 0;   
     text-align: center;
     height: 100px;
 }
 .search {
     border-radius: 15px;
+    border: none;
     margin: 20px;
+    margin-right: 0;
     width: 400px;
     height: 50px;
     text-align: center;
@@ -25,8 +27,7 @@ body {
 }
 .searchBtn {
     background-color: transparent;
-    border:none;
-    padding: 10px;
+    border:none;   
     cursor: pointer;
 }
 .search-icon {      
@@ -40,31 +41,33 @@ body {
     margin: 15px 0;
     height: 200px;
 }
-.city, .country {   
-    border: 1px solid black;   
+.city, .country {          
     position: relative;
+    background-color: white; 
+    box-shadow: 5px 8px #888888;
 }
 .city {
     position: relative;
 }
 .map-icon {
   position: absolute;
-  left:15px;
-  top: 15px;  
+  left:10px;
+  top: 10px;  
   width: 30px;
   height: auto;
 }
 .temperature {
-    border: 1px solid black;
+    background-color: white;    
     height: 200px;
     margin-top: 15px;
+    box-shadow: 5px 8px #888888;
     text-align: center; 
     position: relative;   
 }
 .temperature-icon {
   position: absolute;
-  left:15px;
-  top: 15px;  
+  left:10px;
+  top: 10px;  
   width: 40px;
   height: auto;
 }
@@ -75,12 +78,19 @@ h3 {
     bottom: 15px;
     margin:0;      
 }
+.fetch-info {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
 
 .city-name, .country-name, .temp-value {
    font-size: 25px;
    text-align: center;
    justify-content: center;
-
 }
 .weather-icon {
   position: absolute;

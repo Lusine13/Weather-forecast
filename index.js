@@ -75,3 +75,6 @@ function displayWeather(data) {
     iconTemp.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
 }
 
+
+//vorpeszi nuyn API_URL ov ashxati ev geolocatian ev nyus fetchy, 
+//es verevi q= haneci verjic u avelacreci qaxaci search anelu fetchi mej (pastoren tarberutyun kar)
